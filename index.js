@@ -9,13 +9,13 @@ const questions = [
     },
     {
         type: 'input',
-        name: 'location',
+        name: '',
         message: "What's your location",
     },
     {
         type: 'input',
         name: 'bio',
-        message: "enter a quick bio",
+        message: "Enter a quick bio",
     },
     {
         type: 'input',
@@ -45,8 +45,8 @@ const questions = [
         <title>NodeJS MiniProject</title>
     </head>
     <body>
-    <div class="person">
-    <h2>${answers.name}</h2>
+    <div class="Employee">
+    <h1>${answers.name}</h1>
     <p class="location">${answers.location}</p>
     <p class="bio">${answers.bio}</p>
     <p class="LinkedIn">${answers.LinkedIn}</p>
